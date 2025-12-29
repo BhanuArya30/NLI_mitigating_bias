@@ -1,0 +1,351 @@
+{
+  "artifact_performance": {
+    "negation": {
+      "count": 441,
+      "baseline_acc": 88.43537414965986,
+      "debiased_acc": 88.43537414965986,
+      "change": 0.0,
+      "improved": 12,
+      "degraded": 12,
+      "net": 0
+    },
+    "location_entailment": {
+      "count": 475,
+      "baseline_acc": 88.42105263157895,
+      "debiased_acc": 86.94736842105263,
+      "change": -1.473684210526315,
+      "improved": 9,
+      "degraded": 16,
+      "net": -7
+    },
+    "location_contradiction": {
+      "count": 148,
+      "baseline_acc": 88.51351351351352,
+      "debiased_acc": 91.21621621621621,
+      "change": 2.7027027027026946,
+      "improved": 5,
+      "degraded": 1,
+      "net": 4
+    },
+    "activity_contradiction": {
+      "count": 706,
+      "baseline_acc": 92.20963172804532,
+      "debiased_acc": 93.20113314447592,
+      "change": 0.9915014164305944,
+      "improved": 16,
+      "degraded": 9,
+      "net": 7
+    },
+    "intention_neutral": {
+      "count": 211,
+      "baseline_acc": 92.41706161137441,
+      "debiased_acc": 92.89099526066352,
+      "change": 0.4739336492891084,
+      "improved": 5,
+      "degraded": 4,
+      "net": 1
+    },
+    "existential": {
+      "count": 438,
+      "baseline_acc": 89.49771689497716,
+      "debiased_acc": 89.49771689497716,
+      "change": 0.0,
+      "improved": 11,
+      "degraded": 11,
+      "net": 0
+    }
+  },
+  "confusion_matrix_changes": {
+    "baseline": [
+      [
+        3001,
+        249,
+        79
+      ],
+      [
+        231,
+        2772,
+        232
+      ],
+      [
+        86,
+        250,
+        2942
+      ]
+    ],
+    "debiased": [
+      [
+        3004,
+        274,
+        51
+      ],
+      [
+        270,
+        2764,
+        201
+      ],
+      [
+        110,
+        286,
+        2882
+      ]
+    ],
+    "change": [
+      [
+        3,
+        25,
+        -28
+      ],
+      [
+        39,
+        -8,
+        -31
+      ],
+      [
+        24,
+        36,
+        -60
+      ]
+    ]
+  },
+  "change_summary": {
+    "improved": 286,
+    "degraded": 351,
+    "still_wrong_diff": 45,
+    "net_change": -65
+  },
+  "examples_by_artifact": {
+    "improved_activity_contradiction": [
+      {
+        "premise": "A brown a dog and a black dog in the edge of the ocean with a wave under them boats are on the water...",
+        "hypothesis": "The dogs are swimming among the boats.",
+        "true_label": "entailment",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "Four females wearing helments are riding on an ATV.",
+        "hypothesis": "Four women are driving an all terrain vehicle.",
+        "true_label": "entailment",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "Six children at a table with a green tablecloth, five female, one male, looking at the camera, plate...",
+        "hypothesis": "Kids are sitting in six of the eight chairs.",
+        "true_label": "entailment",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "entailment"
+      }
+    ],
+    "improved_location_contradiction": [
+      {
+        "premise": "A gentlemen dressed in a purple shirt with a red apron selling items to eat at a sport event held du...",
+        "hypothesis": "There is a person selling food inside a fancy restaurant.",
+        "true_label": "contradiction",
+        "baseline_pred": "neutral",
+        "debiased_pred": "contradiction"
+      },
+      {
+        "premise": "A little boy is sitting next to a bed while wearing orange sunglasses and playing with a toy hammer",
+        "hypothesis": "A little boy is playing inside his bedroom",
+        "true_label": "neutral",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      },
+      {
+        "premise": "A man in a red uniform is playing backset ball with a man in a white uniform blocking his shot.",
+        "hypothesis": "Two basketball players play basketball on an indoor court.",
+        "true_label": "neutral",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      }
+    ],
+    "improved_existential": [
+      {
+        "premise": "A gentlemen dressed in a purple shirt with a red apron selling items to eat at a sport event held du...",
+        "hypothesis": "There is a person selling food inside a fancy restaurant.",
+        "true_label": "contradiction",
+        "baseline_pred": "neutral",
+        "debiased_pred": "contradiction"
+      },
+      {
+        "premise": "A group of people standing in front of a club.",
+        "hypothesis": "There are seven people leaving the club.",
+        "true_label": "contradiction",
+        "baseline_pred": "neutral",
+        "debiased_pred": "contradiction"
+      },
+      {
+        "premise": "Someone holding a bag of oranges walking outside.",
+        "hypothesis": "Someone is juggling oranges",
+        "true_label": "contradiction",
+        "baseline_pred": "neutral",
+        "debiased_pred": "contradiction"
+      }
+    ],
+    "improved_intention_neutral": [
+      {
+        "premise": "The quarterback of the UTEP football team is about to be tackled by a member of the Wisconsin defens...",
+        "hypothesis": "The quarterback is about to be tackled by the opposing team.",
+        "true_label": "entailment",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A couple is a standing together the woman is adjusting a flower on the man's lapel and they are dres...",
+        "hypothesis": "People are going to a wedding.",
+        "true_label": "entailment",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A man in a gray sweatshirt and blue jeans is pulling on a rope while a guy in a white shirt and blac...",
+        "hypothesis": "the man was trying to pull the bull back into the pin",
+        "true_label": "neutral",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      }
+    ],
+    "improved_location_entailment": [
+      {
+        "premise": "Five little boys are playing baseball.",
+        "hypothesis": "A few little boys playing baseball outside.",
+        "true_label": "entailment",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A man cooking food on the stove.",
+        "hypothesis": "A man is making a steak on the grill outdoors.",
+        "true_label": "contradiction",
+        "baseline_pred": "neutral",
+        "debiased_pred": "contradiction"
+      },
+      {
+        "premise": "An elderly man sleeping in a outdoor chair while another woman sits next to him.",
+        "hypothesis": "Two women are relaxing outside.",
+        "true_label": "contradiction",
+        "baseline_pred": "entailment",
+        "debiased_pred": "contradiction"
+      }
+    ],
+    "improved_negation": [
+      {
+        "premise": "A boy with a basketballs glowers at the camera.",
+        "hypothesis": "The boy doesn't like playing basketball",
+        "true_label": "neutral",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      },
+      {
+        "premise": "A large group of people stand outside on a road while people on a higher level look on at them.",
+        "hypothesis": "One group of people are watching what another group does.",
+        "true_label": "entailment",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A man jumps on another man while a crowd looks on.",
+        "hypothesis": "a man fights another man while a crowd watches",
+        "true_label": "neutral",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      }
+    ],
+    "degraded_location_entailment": [
+      {
+        "premise": "A nun uses her camera to take a photo of an interesting site.",
+        "hypothesis": "A nun using her camera to take pictures of various things outdoors.",
+        "true_label": "neutral",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A young girl has her hands in a tub of water with leaves in it.",
+        "hypothesis": "A girl washes toys outside.",
+        "true_label": "contradiction",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      }
+    ],
+    "degraded_negation": [
+      {
+        "premise": "A man is walking away from tents with the word Camden on them.",
+        "hypothesis": "The tents do not have anything written on them.",
+        "true_label": "contradiction",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      },
+      {
+        "premise": "A costume worn by this little boy is making him feel a little insecure.",
+        "hypothesis": "The boy doesn't like his costume.",
+        "true_label": "neutral",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      }
+    ],
+    "degraded_location_contradiction": [
+      {
+        "premise": "A man plays mini-gold on the SportsCenter set while two others observe.",
+        "hypothesis": "The man is indoors.",
+        "true_label": "neutral",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      }
+    ],
+    "degraded_intention_neutral": [
+      {
+        "premise": "A woman is eating what appears to be a mussel.",
+        "hypothesis": "The woman is about to ingest food",
+        "true_label": "entailment",
+        "baseline_pred": "entailment",
+        "debiased_pred": "neutral"
+      },
+      {
+        "premise": "Thick clouds masked the sky for the Braun sponsored event as the crowd looked up at the raised platf...",
+        "hypothesis": "There are a group of people standing by ATV's, waiting for a race to start.",
+        "true_label": "contradiction",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "neutral"
+      }
+    ],
+    "degraded_activity_contradiction": [
+      {
+        "premise": "Several people wearing foil crowns gathered around a table eating.",
+        "hypothesis": "A group of people sat around eating dinner.",
+        "true_label": "neutral",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      },
+      {
+        "premise": "A girl is standing and another one is sitting by a tree",
+        "hypothesis": "Both girls are sitting by the tree.",
+        "true_label": "contradiction",
+        "baseline_pred": "contradiction",
+        "debiased_pred": "entailment"
+      }
+    ],
+    "degraded_existential": [
+      {
+        "premise": "A referee is talking with a couple of soccer players in red jerseys.",
+        "hypothesis": "There is a soccer game today.",
+        "true_label": "entailment",
+        "baseline_pred": "entailment",
+        "debiased_pred": "neutral"
+      },
+      {
+        "premise": "A woman is sitting and staring on a red bench near a building.",
+        "hypothesis": "Someone is thinking.",
+        "true_label": "neutral",
+        "baseline_pred": "neutral",
+        "debiased_pred": "entailment"
+      }
+    ]
+  },
+  "statistics": {
+    "effect_size": -0.02048700003006965,
+    "agreement_rate": 0.930705141231457,
+    "change_rate": 0.06929485876854298
+  }
+}

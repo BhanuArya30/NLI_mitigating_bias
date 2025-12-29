@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "total": 9842,
+    "correct": 8715,
+    "errors": 1127,
+    "accuracy": 0.8854907539118065
+  },
+  "error_patterns": {
+    "contradiction \u2192 neutral": 250,
+    "neutral \u2192 contradiction": 232,
+    "contradiction \u2192 entailment": 86,
+    "neutral \u2192 entailment": 231,
+    "entailment \u2192 contradiction": 79,
+    "entailment \u2192 neutral": 249
+  },
+  "negation_errors": 51,
+  "sample_errors": [
+    {
+      "premise": "A young man is caught in midair while doing a skateboard trick in an urban environment.",
+      "hypothesis": "The man is upside down in the air.",
+      "label": 1,
+      "predicted_scores": [
+        1.1318145990371704,
+        -0.4917089641094208,
+        -0.6167956590652466
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "A boy with a basketballs glowers at the camera.",
+      "hypothesis": "The boy doesn't like playing basketball",
+      "label": 1,
+      "predicted_scores": [
+        -2.1752567291259766,
+        0.6304082274436951,
+        0.9272172451019287
+      ],
+      "predicted_label": 2
+    },
+    {
+      "premise": "People wait in line at bus stop.",
+      "hypothesis": "The bus already has people waiting on it.",
+      "label": 0,
+      "predicted_scores": [
+        -1.6877330541610718,
+        -0.5662561655044556,
+        1.6046861410140991
+      ],
+      "predicted_label": 2
+    },
+    {
+      "premise": "A van with writing on it driving in front of a store.",
+      "hypothesis": "A broken-down van in front of a shopping mall.",
+      "label": 2,
+      "predicted_scores": [
+        -2.6768484115600586,
+        2.809331178665161,
+        -0.263883501291275
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "A young child brushes his or her teeth while holding a remote.",
+      "hypothesis": "The young boy is multi-tasking.",
+      "label": 0,
+      "predicted_scores": [
+        0.19851566851139069,
+        0.7669709324836731,
+        -0.8984672427177429
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "A determined crosscountry runner.",
+      "hypothesis": "Running away from a stray dog",
+      "label": 2,
+      "predicted_scores": [
+        -3.3525445461273193,
+        3.1194818019866943,
+        -0.03908175975084305
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "Several young people standing next to ten-speed bikes.",
+      "hypothesis": "Several young people are standing next to motorcycles.",
+      "label": 2,
+      "predicted_scores": [
+        2.513324022293091,
+        -1.251741647720337,
+        -1.4052151441574097
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "The baseball player wearing the \"Irish\" uniform prepares to throw the ball to his teammate as the umpire watches closely.",
+      "hypothesis": "Two baseball players practicing with an umpire watching.",
+      "label": 0,
+      "predicted_scores": [
+        -0.3915686309337616,
+        2.0456745624542236,
+        -1.5922114849090576
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "A woman and man are cutting a large cake.",
+      "hypothesis": "Two newly weds are cutting their wedding cake.",
+      "label": 0,
+      "predicted_scores": [
+        -2.032855987548828,
+        4.012707710266113,
+        -1.8449827432632446
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "A man in a blue shirt climbs a rock while people behind him in red shirts watch.",
+      "hypothesis": "A man watches others climbing a rock.",
+      "label": 2,
+      "predicted_scores": [
+        2.9603617191314697,
+        -0.8785260319709778,
+        -2.430244207382202
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "A young boy in a Cookie Monster t-shirt sits on the ground on a fall day, holding a fallen leaf in his hand as an expression of joy lights up on his face.",
+      "hypothesis": "A young boy is playing in a pile of leaves.",
+      "label": 0,
+      "predicted_scores": [
+        0.024304615333676338,
+        0.5280539989471436,
+        -0.44477248191833496
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "A person performing a snowboarding trick on a high mountain.",
+      "hypothesis": "A human being is snowboarding and doing tricks.",
+      "label": 1,
+      "predicted_scores": [
+        3.931858539581299,
+        -0.6091655492782593,
+        -3.908810615539551
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "A middle-aged woman pretends to be a DJ as younger people point.",
+      "hypothesis": "A woman is a DJ for a party in a submarine.",
+      "label": 2,
+      "predicted_scores": [
+        -4.172904014587402,
+        2.7370495796203613,
+        0.8202857971191406
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "The couple are wearing glasses intended for 3D movies.",
+      "hypothesis": "A couple are wearing sunglasses.",
+      "label": 2,
+      "predicted_scores": [
+        4.1308207511901855,
+        -1.0590426921844482,
+        -3.5330655574798584
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "A boy in a black swimsuit playing near the water.",
+      "hypothesis": "A boy is building a sandcastle near the water.",
+      "label": 1,
+      "predicted_scores": [
+        -4.3393073081970215,
+        -0.10975979268550873,
+        3.0497214794158936
+      ],
+      "predicted_label": 2
+    },
+    {
+      "premise": "Middle-aged man in casual clothes looking off-camera.",
+      "hypothesis": "The man's face is in profile.",
+      "label": 1,
+      "predicted_scores": [
+        0.9740744233131409,
+        0.24034474790096283,
+        -1.2731788158416748
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "Young woman celebrates getting a strike during a bowling game.",
+      "hypothesis": "The young women is outside.",
+      "label": 2,
+      "predicted_scores": [
+        1.9650607109069824,
+        0.5845624804496765,
+        -2.9148616790771484
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "a man in a red shirt looking at a woman with red-hair",
+      "hypothesis": "A person is leering at another.",
+      "label": 1,
+      "predicted_scores": [
+        2.276282787322998,
+        -0.1447242945432663,
+        -2.499077796936035
+      ],
+      "predicted_label": 0
+    },
+    {
+      "premise": "A man in an orange shirt looking at his cellphone.",
+      "hypothesis": "A man realizes he forgot his cellphone.",
+      "label": 2,
+      "predicted_scores": [
+        -2.785898447036743,
+        1.5733517408370972,
+        0.647266149520874
+      ],
+      "predicted_label": 1
+    },
+    {
+      "premise": "What appears to be a taller bald white man sitting next to a shorter black man in a reception area.",
+      "hypothesis": "The taller bald white man is standing by the short black man.",
+      "label": 0,
+      "predicted_scores": [
+        -2.773533582687378,
+        -2.0080318450927734,
+        3.76041579246521
+      ],
+      "predicted_label": 2
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "label_counts": {
+    "1": 3235,
+    "0": 3329,
+    "2": 3278
+  },
+  "top_correlations": {
+    "entailment": [
+      {
+        "ngram": "outdoors.",
+        "pmi": 0.9429083855909929,
+        "count": 66
+      },
+      {
+        "ngram": "there are",
+        "pmi": 0.7439790923973779,
+        "count": 121
+      },
+      {
+        "ngram": "outside.",
+        "pmi": 0.7316693452811217,
+        "count": 161
+      },
+      {
+        "ngram": "near a",
+        "pmi": 0.6619925737915237,
+        "count": 40
+      },
+      {
+        "ngram": "near",
+        "pmi": 0.6526424277549133,
+        "count": 89
+      },
+      {
+        "ngram": "there",
+        "pmi": 0.6238050929036627,
+        "count": 243
+      },
+      {
+        "ngram": "a person",
+        "pmi": 0.5937806472876435,
+        "count": 147
+      },
+      {
+        "ngram": "water.",
+        "pmi": 0.5578938879541194,
+        "count": 52
+      },
+      {
+        "ngram": "there is",
+        "pmi": 0.5478435521006179,
+        "count": 117
+      },
+      {
+        "ngram": "outside",
+        "pmi": 0.5205176265994856,
+        "count": 74
+      },
+      {
+        "ngram": "another",
+        "pmi": 0.4622987672730982,
+        "count": 29
+      },
+      {
+        "ngram": "is holding",
+        "pmi": 0.42906101611115094,
+        "count": 40
+      },
+      {
+        "ngram": "two people",
+        "pmi": 0.42474135496663457,
+        "count": 75
+      },
+      {
+        "ngram": "someone",
+        "pmi": 0.4206927664406344,
+        "count": 34
+      },
+      {
+        "ngram": "dressed",
+        "pmi": 0.4175080503731146,
+        "count": 38
+      },
+      {
+        "ngram": "working",
+        "pmi": 0.39083980329095325,
+        "count": 31
+      },
+      {
+        "ngram": "woman in",
+        "pmi": 0.39083980329095325,
+        "count": 26
+      },
+      {
+        "ngram": "holds",
+        "pmi": 0.39083980329095314,
+        "count": 30
+      },
+      {
+        "ngram": "person",
+        "pmi": 0.36106764495728305,
+        "count": 182
+      },
+      {
+        "ngram": "next to",
+        "pmi": 0.36006814462419945,
+        "count": 32
+      }
+    ],
+    "neutral": [
+      {
+        "ngram": "for the",
+        "pmi": 0.829267603183658,
+        "count": 58
+      },
+      {
+        "ngram": "about",
+        "pmi": 0.8171658015970867,
+        "count": 64
+      },
+      {
+        "ngram": "waiting for",
+        "pmi": 0.7981366845884851,
+        "count": 46
+      },
+      {
+        "ngram": "after",
+        "pmi": 0.7841259475188865,
+        "count": 36
+      },
+      {
+        "ngram": "for",
+        "pmi": 0.7528446481377976,
+        "count": 321
+      },
+      {
+        "ngram": "about to",
+        "pmi": 0.7361524432560107,
+        "count": 35
+      },
+      {
+        "ngram": "trying to",
+        "pmi": 0.6994428602888478,
+        "count": 43
+      },
+      {
+        "ngram": "trying",
+        "pmi": 0.6927761689306586,
+        "count": 46
+      },
+      {
+        "ngram": "he",
+        "pmi": 0.6918974342519699,
+        "count": 65
+      },
+      {
+        "ngram": "going",
+        "pmi": 0.6877468205256564,
+        "count": 51
+      },
+      {
+        "ngram": "for a",
+        "pmi": 0.6756165486478323,
+        "count": 104
+      },
+      {
+        "ngram": "it",
+        "pmi": 0.6460104832294273,
+        "count": 37
+      },
+      {
+        "ngram": "they",
+        "pmi": 0.6325033776137384,
+        "count": 86
+      },
+      {
+        "ngram": "waiting",
+        "pmi": 0.628384028529644,
+        "count": 61
+      },
+      {
+        "ngram": "to",
+        "pmi": 0.6189242729383987,
+        "count": 542
+      },
+      {
+        "ngram": "they are",
+        "pmi": 0.5942855583109046,
+        "count": 53
+      },
+      {
+        "ngram": "she",
+        "pmi": 0.5710327320581783,
+        "count": 32
+      },
+      {
+        "ngram": "getting",
+        "pmi": 0.5646648437754751,
+        "count": 37
+      },
+      {
+        "ngram": "performing",
+        "pmi": 0.5530142265555,
+        "count": 36
+      },
+      {
+        "ngram": "having",
+        "pmi": 0.5300247083308012,
+        "count": 43
+      }
+    ],
+    "contradiction": [
+      {
+        "ngram": "nobody",
+        "pmi": 1.0994254621221484,
+        "count": 53
+      },
+      {
+        "ngram": "sleeping",
+        "pmi": 0.9452747822948904,
+        "count": 66
+      },
+      {
+        "ngram": "driving",
+        "pmi": 0.8903336642635891,
+        "count": 43
+      },
+      {
+        "ngram": "sitting in",
+        "pmi": 0.8015910182063495,
+        "count": 49
+      },
+      {
+        "ngram": "swimming",
+        "pmi": 0.7602097395551849,
+        "count": 52
+      },
+      {
+        "ngram": "eating",
+        "pmi": 0.7239411862259201,
+        "count": 79
+      },
+      {
+        "ngram": "inside",
+        "pmi": 0.6865802467163615,
+        "count": 45
+      },
+      {
+        "ngram": "is eating",
+        "pmi": 0.6225013900318394,
+        "count": 36
+      },
+      {
+        "ngram": "is sitting",
+        "pmi": 0.6041040248921232,
+        "count": 78
+      },
+      {
+        "ngram": "are sitting",
+        "pmi": 0.5677657514533158,
+        "count": 57
+      },
+      {
+        "ngram": "down the",
+        "pmi": 0.5359561048707358,
+        "count": 37
+      },
+      {
+        "ngram": "sits",
+        "pmi": 0.5298922375293798,
+        "count": 43
+      },
+      {
+        "ngram": "sitting",
+        "pmi": 0.4808469770597118,
+        "count": 167
+      },
+      {
+        "ngram": "the park.",
+        "pmi": 0.48038625371592525,
+        "count": 28
+      },
+      {
+        "ngram": "dancing",
+        "pmi": 0.44549899471548454,
+        "count": 26
+      },
+      {
+        "ngram": "is standing",
+        "pmi": 0.4159401924739402,
+        "count": 52
+      },
+      {
+        "ngram": "running",
+        "pmi": 0.40627828156220336,
+        "count": 72
+      },
+      {
+        "ngram": "watching",
+        "pmi": 0.4062782815622032,
+        "count": 54
+      },
+      {
+        "ngram": "sitting on",
+        "pmi": 0.4062782815622032,
+        "count": 43
+      },
+      {
+        "ngram": "at the",
+        "pmi": 0.3665379529126891,
+        "count": 111
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+accelerate
+datasets
+torch
+tqdm
+transformers
+evaluate
+# added
+matplotlib
+seaborn
+scipy
